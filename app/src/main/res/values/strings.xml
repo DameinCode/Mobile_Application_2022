@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Blog</string>
+    <string name="logo">BLOG.IO</string>
+    <string name="hint_username">Username</string>
+    <string name="signin">Login</string>
+    <string name="emailHint">example@gmail.com</string>
+    <string name="tet">Result</string>
+    <string name="password">Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="username">Gulbina</string>
+    <string name="blog_edit_welcome">Blog: Share small part of you</string>
+    <string name="info_content_blog1">Type blog content: </string>
+    <string name="hint_blog">Enter text...</string>
+    <string name="addblog">Add blog</string>
+    <string name="upload_photo">Upload photo to the blog</string>
+    <string name="themes">Themes:</string>
+    <string name="themesEnter">Enter related themes to the blog...</string>
+
+
+    <string-array name="initial_blog_contents">
+        <item>This is where eTexts have advantages over traditional textbooks. eTexts offer hyperlinks to videos that demonstrate difficult concepts. They also provide a digital discussion space for learners using the same text. Besides 3-D images and audiobook options, eTexts can accommodate the visually impaired by enlarging texts and images and transposing colored images into black and white for the colorblind. eTexts offer the latest in innovative learning. To paraphrase the white-haired scientist from the movie about a bell tower, if you’re going to do something, you might as well do it with style. The typical learner is also on a tight budget. Cost is usually the biggest factor when choosing between an eText and a traditional textbook. If the cost of eTexts remains lower than traditional textbooks, then most students will prefer purchasing them. Even though eTexts offer inventive ways to learn, the typical learner may opt for a traditional textbook if it means she will still have money to pay rent. Many publishers recognized that learners would happily choose eTexts over traditional textbooks a few years ago, so they reduced the price of eTexts. They found that the magic price point for an eText is $40. Most students don’t flinch at a $40 price tag.</item>
+        <item>Hi! Nice to meet you! My name is John Smith. I am 19 and a student in college. I go to college in New York. My favorite courses are Geometry, French, and History. English is my hardest course. My professors are very friendly and smart. It’s my second year in college now. I love it. I live in a big house on Ivy Street. It’s near the college campus. I share the house with three other students. Their names are Bill, Tony, and Paul. We help each other with homework. On the weekend, we play football together. I have a younger brother. He just started high school. He is 14 and lives with my parents. They live on Mulberry Street in Boston. Sometimes they visit me in New York. I am happy when they visit. My Mom always brings me sweets and candy when they come. I really miss them, too!</item>
+        <item>Stephanie recently took a weekend trip to Los Angeles, California. Los Angeles is a coastal city situated along the Pacific Ocean. Many celebrities earned their claim to fame here. Although the town offers many attractions centered around Hollywood culture, there is a lot to see and visit in Los Angeles. Of course, all things related to Hollywood are popular tourist attractions. The Hollywood Sign, located the Hollywood Hills of the Santa Monica Mountains, is a famous landmark for this star-studded town. Once in downtown Hollywood, it’s possible to take a stroll along the Hollywood Walk of Fame. This landmark contains more than 2500 brass stars dedicated to celebrities who have made a significant impact on the entertainment industry. In Hollywood, visitors can even take tours of popular movie studios. Stephanie had a chance to visit Universal Studios, which produces her favorite films.</item>
+    </string-array>
+
+
+
+</resources>

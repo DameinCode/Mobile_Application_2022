@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12sp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_blog">
+
+            <ImageButton
+                android:id="@+id/edit_button"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                app:srcCompat="@drawable/edit_icon"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:padding="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+            <LinearLayout
+                android:id="@+id/blog"
+                android:layout_width="match_parent"
+                android:layout_height="120sp"
+                app:layout_constraintTop_toBottomOf="@+id/edit_button"
+                >
+
+                <LinearLayout
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/photo_blog"
+                    android:layout_margin="5sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/wallpaper"
+                        android:scaleType="centerInside"
+                        android:adjustViewBounds="true"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto"
+                    android:layout_margin="5sp"
+                    android:id="@+id/text_of_blog"
+                    android:layout_marginLeft="10sp"
+                    android:text="Weather is the day-to-day state of atmosphere and pertains to short term changes in conditions of heat, moisture and air movement. Weather results from processes that attempt to equalise the differences in the distribution of net
+ radiant energy from sun. In other words, the instantaneous state of atmosphere can be called as weather. It is usually expressed as fine, fair, foggy, cloudy, rainy, sunny or windy weather. \n The process of exchange of heat and moisture between earth and atmosphere over a long "
+                    android:textSize="7sp"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toTopOf="@id/View03"
+                    />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/View03"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#9A9AA0"
+
+                app:layout_constraintTop_toBottomOf="@id/blog"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/comment_section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/View03"
+                android:layout_marginBottom="7sp"
+                android:layout_marginTop="4sp"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_height="10dp"
+                    android:layout_width="10dp"
+                    android:id="@+id/comment_icon"
+                    app:srcCompat="@drawable/comment_icon"
+                    />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Comments"
+                    android:textSize="9sp" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
